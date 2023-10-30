@@ -23,15 +23,3 @@ overlay.addEventListener("click", () => {
   overlay.style.display = "none";
 });
 ////////////////////////////
-const video = document.getElementById("bg-video");
-
-video.addEventListener("ended", function () {
-  // ビデオ再生が終了したらビデオを非表示にする
-  video.style.display = "none";
-});
-
-document.addEventListener("keydown", function (event) {
-  if (event.keyCode) {
-    video.style.display = "none";
-  }
-});
